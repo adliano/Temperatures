@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1DD636D1EB30AFC00865287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DD636C1EB30AFC00865287 /* AppDelegate.swift */; };
+		D1DD63721EB30AFC00865287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1DD63701EB30AFC00865287 /* Main.storyboard */; };
+		D1DD63741EB30AFC00865287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1DD63731EB30AFC00865287 /* Assets.xcassets */; };
+		D1DD63771EB30AFC00865287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1DD63751EB30AFC00865287 /* LaunchScreen.storyboard */; };
+		D1DD63831EB30CCE00865287 /* Celsius2FahrenheitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DD63821EB30CCE00865287 /* Celsius2FahrenheitViewController.swift */; };
+		D1DD63851EB30EA000865287 /* CelsiusDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DD63841EB30EA000865287 /* CelsiusDataSource.swift */; };
+		D1DD63871EB3134A00865287 /* TemperaturesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DD63861EB3134A00865287 /* TemperaturesModel.swift */; };
+		D1DD63891EB31C2B00865287 /* Fahrenheit2CelsiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DD63881EB31C2B00865287 /* Fahrenheit2CelsiusViewController.swift */; };
+		D1DD638B1EB31FD100865287 /* FahrenheitDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DD638A1EB31FD100865287 /* FahrenheitDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1DD63691EB30AFC00865287 /* Temperatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temperatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DD636C1EB30AFC00865287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1DD63711EB30AFC00865287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1DD63731EB30AFC00865287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1DD63761EB30AFC00865287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1DD63781EB30AFC00865287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DD63821EB30CCE00865287 /* Celsius2FahrenheitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Celsius2FahrenheitViewController.swift; sourceTree = "<group>"; };
+		D1DD63841EB30EA000865287 /* CelsiusDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelsiusDataSource.swift; sourceTree = "<group>"; };
+		D1DD63861EB3134A00865287 /* TemperaturesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperaturesModel.swift; sourceTree = "<group>"; };
+		D1DD63881EB31C2B00865287 /* Fahrenheit2CelsiusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fahrenheit2CelsiusViewController.swift; sourceTree = "<group>"; };
+		D1DD638A1EB31FD100865287 /* FahrenheitDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FahrenheitDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1DD63661EB30AFC00865287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1DD63601EB30AFC00865287 = {
+			isa = PBXGroup;
+			children = (
+				D1DD636B1EB30AFC00865287 /* Temperatures */,
+				D1DD636A1EB30AFC00865287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1DD636A1EB30AFC00865287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1DD63691EB30AFC00865287 /* Temperatures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1DD636B1EB30AFC00865287 /* Temperatures */ = {
+			isa = PBXGroup;
+			children = (
+				D1DD636C1EB30AFC00865287 /* AppDelegate.swift */,
+				D1DD63821EB30CCE00865287 /* Celsius2FahrenheitViewController.swift */,
+				D1DD63881EB31C2B00865287 /* Fahrenheit2CelsiusViewController.swift */,
+				D1DD63861EB3134A00865287 /* TemperaturesModel.swift */,
+				D1DD63841EB30EA000865287 /* CelsiusDataSource.swift */,
+				D1DD638A1EB31FD100865287 /* FahrenheitDataSource.swift */,
+				D1DD63701EB30AFC00865287 /* Main.storyboard */,
+				D1DD63731EB30AFC00865287 /* Assets.xcassets */,
+				D1DD63751EB30AFC00865287 /* LaunchScreen.storyboard */,
+				D1DD63781EB30AFC00865287 /* Info.plist */,
+			);
+			path = Temperatures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1DD63681EB30AFC00865287 /* Temperatures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1DD637B1EB30AFC00865287 /* Build configuration list for PBXNativeTarget "Temperatures" */;
+			buildPhases = (
+				D1DD63651EB30AFC00865287 /* Sources */,
+				D1DD63661EB30AFC00865287 /* Frameworks */,
+				D1DD63671EB30AFC00865287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Temperatures;
+			productName = Temperatures;
+			productReference = D1DD63691EB30AFC00865287 /* Temperatures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1DD63611EB30AFC00865287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Adriano Alves";
+				TargetAttributes = {
+					D1DD63681EB30AFC00865287 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D1DD63641EB30AFC00865287 /* Build configuration list for PBXProject "Temperatures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1DD63601EB30AFC00865287;
+			productRefGroup = D1DD636A1EB30AFC00865287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1DD63681EB30AFC00865287 /* Temperatures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1DD63671EB30AFC00865287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DD63771EB30AFC00865287 /* LaunchScreen.storyboard in Resources */,
+				D1DD63741EB30AFC00865287 /* Assets.xcassets in Resources */,
+				D1DD63721EB30AFC00865287 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1DD63651EB30AFC00865287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DD63871EB3134A00865287 /* TemperaturesModel.swift in Sources */,
+				D1DD63891EB31C2B00865287 /* Fahrenheit2CelsiusViewController.swift in Sources */,
+				D1DD63851EB30EA000865287 /* CelsiusDataSource.swift in Sources */,
+				D1DD63831EB30CCE00865287 /* Celsius2FahrenheitViewController.swift in Sources */,
+				D1DD638B1EB31FD100865287 /* FahrenheitDataSource.swift in Sources */,
+				D1DD636D1EB30AFC00865287 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1DD63701EB30AFC00865287 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1DD63711EB30AFC00865287 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1DD63751EB30AFC00865287 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1DD63761EB30AFC00865287 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1DD63791EB30AFC00865287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1DD637A1EB30AFC00865287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1DD637C1EB30AFC00865287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Temperatures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs112.Temperatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos10.3;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D1DD637D1EB30AFC00865287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Temperatures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs112.Temperatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos10.3;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1DD63641EB30AFC00865287 /* Build configuration list for PBXProject "Temperatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1DD63791EB30AFC00865287 /* Debug */,
+				D1DD637A1EB30AFC00865287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1DD637B1EB30AFC00865287 /* Build configuration list for PBXNativeTarget "Temperatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1DD637C1EB30AFC00865287 /* Debug */,
+				D1DD637D1EB30AFC00865287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1DD63611EB30AFC00865287 /* Project object */;
+}
