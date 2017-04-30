@@ -1,16 +1,21 @@
-//
-//  CelsiusDataSource.swift
-//  Temperatures
-//
-//  Created by Adriano Alves on 4/27/17.
-//  Copyright © 2017 Adriano Alves. All rights reserved.
-//
+/*
+ Adriano Alves
+ Apr 27 2017
+ CelsiusDataSource.swift
+ Temperatures
+ 
+ CS112 Assignment 12
+ this class provida data to Celsius UIPickerView
+ 
+ Copyright © 2017 Adriano Alves. All rights reserved.
+ 
+ */
 
 import UIKit
 
 class CelsiusDataSource : NSObject , UIPickerViewDataSource
 {
-    let temperetures : [Int] = Array(-50...150)
+    let temperatures : [Int] = Array(-50...150)
     
     // MARK: numberOfComponents conforming with UIPickerViewDataSource
     func numberOfComponents(in pickerView: UIPickerView) -> Int
@@ -20,6 +25,6 @@ class CelsiusDataSource : NSObject , UIPickerViewDataSource
     // MARK: pickerView conforming with UIPickerViewDataSource
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int
     {
-        return temperetures.count
+        return temperatures.count
     }
 }

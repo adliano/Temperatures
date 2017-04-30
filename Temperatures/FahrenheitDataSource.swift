@@ -1,10 +1,15 @@
-//
-//  FahrenheitDataSource.swift
-//  Temperatures
-//
-//  Created by Adriano Alves on 4/27/17.
-//  Copyright © 2017 Adriano Alves. All rights reserved.
-//
+/*
+ Adriano Alves
+ Apr 27 2017
+ FahrenheitDataSource.swift
+ Temperatures
+ 
+ CS112 Assignment 12
+ this class provida data to Fahrenheit UIPickerView
+ 
+ Copyright © 2017 Adriano Alves. All rights reserved.
+ 
+ */
 
 import UIKit
 

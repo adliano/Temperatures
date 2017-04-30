@@ -1,12 +1,17 @@
-//
-//  TemperaturesModel.swift
-//  Temperatures
-//
-//  Created by Adriano Alves on 4/27/17.
-//  Copyright © 2017 Adriano Alves. All rights reserved.
-//
+/*
+ Adriano Alves
+ Apr 27 2017
+ TemperaturesModel.swift
+ Temperatures
+ 
+ CS112 Assignment 12
+ Model class with usefull methods
 
-import Foundation
+ Copyright © 2017 Adriano Alves. All rights reserved.
+
+ */
+
+import UIKit
 
 class TemperaturesModel
 {
@@ -18,6 +23,38 @@ class TemperaturesModel
     // Mark: f2c Method that get a fahrenheit temp input and return a celsius value
     func f2c(℉ : Int) -> String
     {
-        return String((℉ - 32) * 5 / 9)
+        return String(format : "%.1f", (Double(℉) - 32) / 1.8 )
+    }
+    // Mark: getImage , argumet temperatureInCelsius
+    func getImage(temperatureInCelsius : Int) ->  UIImage
+    {
+        if temperatureInCelsius < 0
+        {
+            return #imageLiteral(resourceName: "ice")
+        }
+        else if temperatureInCelsius < 101
+        {
+            return #imageLiteral(resourceName: "water")
+        }
+        else
+        {
+            return #imageLiteral(resourceName: "boiling")
+        }
+    }
+    // Mark: getImage , argumet temperatureInFahrenheit
+    func getImage(temperatureInFahrenheit : Int) ->  UIImage
+    {
+        if temperatureInFahrenheit < 32
+        {
+            return #imageLiteral(resourceName: "ice")
+        }
+        else if temperatureInFahrenheit <= 212
+        {
+            return #imageLiteral(resourceName: "water")
+        }
+        else
+        {
+        return #imageLiteral(resourceName: "boiling")
+        }
     }
 }

@@ -28,17 +28,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Qg-iQ-J8t">
-                                <rect key="frame" x="0.0" y="100" width="375" height="216"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" identifier="test"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="NCW-ma-3DR" id="OvD-x5-DpF"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="YKf-4h-SLU"/>
-                                </connections>
-                            </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="du1-ub-wsQ">
-                                <rect key="frame" x="112" y="412" width="150" height="30"/>
+                                <rect key="frame" x="112" y="520" width="150" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="switch units"/>
@@ -46,11 +37,27 @@
                                     <segue destination="tr7-MI-R9F" kind="presentation" id="40g-Ii-Gg1"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x9z-x1-dmP">
+                                <rect key="frame" x="16" y="78" width="343" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Qg-iQ-J8t">
+                                <rect key="frame" x="0.0" y="225" width="375" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="test">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <connections>
+                                    <outlet property="dataSource" destination="NCW-ma-3DR" id="OvD-x5-DpF"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="YKf-4h-SLU"/>
+                                </connections>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="labelTemperatureOutput" destination="EYd-uw-ljs" id="0k6-EG-oIH"/>
+                        <outlet property="outputImage" destination="x9z-x1-dmP" id="I6F-JF-ZXQ"/>
                         <outlet property="picker" destination="1Qg-iQ-J8t" id="MUy-UG-nft"/>
                         <outlet property="tempDataSource" destination="NCW-ma-3DR" id="2Xf-mH-uCJ"/>
                     </connections>
@@ -58,7 +65,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <customObject id="NCW-ma-3DR" userLabel="CelsiusTempDataSource" customClass="CelsiusDataSource" customModule="Temperatures" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="-353" y="82"/>
+            <point key="canvasLocation" x="-354.39999999999998" y="81.409295352323838"/>
         </scene>
         <!--Fahrenheit2 Celsius View Controller-->
         <scene sceneID="RAK-aS-MlM">
@@ -73,7 +80,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8q-du-ZgH">
-                                <rect key="frame" x="112" y="412" width="150" height="30"/>
+                                <rect key="frame" x="112" y="520" width="150" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="switch units"/>
@@ -89,18 +96,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sdw-5K-xym">
-                                <rect key="frame" x="0.0" y="100" width="375" height="216"/>
+                                <rect key="frame" x="0.0" y="255" width="375" height="216"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outlet property="dataSource" destination="Lar-dv-mam" id="ZXu-oB-5N3"/>
                                     <outlet property="delegate" destination="tr7-MI-R9F" id="8hg-KY-ekA"/>
                                 </connections>
                             </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j1n-61-Yjj">
+                                <rect key="frame" x="16" y="78" width="343" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="celsiusTempOutput" destination="kEj-vE-6Sz" id="67F-VM-UvQ"/>
+                        <outlet property="outputImage" destination="j1n-61-Yjj" id="hGM-k9-R0B"/>
                         <outlet property="picker" destination="Sdw-5K-xym" id="gER-c8-0Uc"/>
                         <outlet property="tempDataSource" destination="Lar-dv-mam" id="nMp-UU-2OC"/>
                     </connections>
